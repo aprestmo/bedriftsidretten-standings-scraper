@@ -1,15 +1,13 @@
-const puppeteer = require('puppeteer');
-const fs = require('node:fs');
-const path = require('node:path');
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
 
 (async () => {
-  const url = 'https://kamper.bedriftsidretten.no/standings?seasonId=201055&tournamentId=436308';
-  const browser = await puppeteer.launch({
-  headless: 'new',
-  args: ['--no-sandbox', '--disable-setuid-sandbox']
-});
+  const browser = await chromium.launch();
   const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle0' });
+  const url = 'https://kamper.bedriftsidretten.no/standings?seasonId=201055&tournamentId=436308';
+
+  await page.goto(url, { waitUntil: 'networkidle' });
   await page.waitForSelector('table');
 
   const standings = await page.evaluate(() => {
@@ -32,5 +30,6 @@ const path = require('node:path');
   const outputPath = path.join(__dirname, 'public', 'standings.json');
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(standings, null, 2));
+
   await browser.close();
 })();

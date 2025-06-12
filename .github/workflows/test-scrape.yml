@@ -1,0 +1,22 @@
+name: Manual Test - Scrape Standings
+
+on:
+  workflow_dispatch:  # Manual trigger from GitHub UI
+
+jobs:
+  test-scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: npm install
+      - run: npm run scrape
+
+      - name: Show JSON Output
+        run: cat public/standings.json
