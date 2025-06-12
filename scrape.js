@@ -4,7 +4,10 @@ const path = require('path');
 
 (async () => {
   const url = 'https://kamper.bedriftsidretten.no/standings?seasonId=201055&tournamentId=436308';
-  const browser = await puppeteer.launch({ headless: 'new' });
+  const browser = await puppeteer.launch({
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle0' });
   await page.waitForSelector('table');
