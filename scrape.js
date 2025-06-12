@@ -1,13 +1,13 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 (async () => {
   const url = 'https://kamper.bedriftsidretten.no/standings?seasonId=201055&tournamentId=436308';
   const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
+  headless: 'new',
+  args: ['--no-sandbox', '--disable-setuid-sandbox']
+});
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: 'networkidle0' });
   await page.waitForSelector('table');

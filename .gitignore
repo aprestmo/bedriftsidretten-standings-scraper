@@ -1,2 +1,3 @@
 node_modules/
 public/standings.json
+.DS_Store
