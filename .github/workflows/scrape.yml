@@ -1,9 +1,9 @@
-name: Weekly Standings Scraper
+name: Daily Standings Scraper
 
 on:
   schedule:
-    - cron: '0 5 * * 1' # Mondays at 05:00 UTC
-  workflow_dispatch:
+    - cron: '0 4 * * *' # Every day at 04:00 UTC = 06:00 CEST (Norwegian summer time)
+  workflow_dispatch:    # Allows manual trigger from GitHub UI
 
 jobs:
   scrape:
@@ -18,12 +18,16 @@ jobs:
           node-version: 18
 
       - run: npm install
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
       - run: npm run scrape
 
-      - name: Commit & push
+      - name: Commit & push updated standings
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add public/standings.json
-          git commit -m "Weekly update: standings.json" || echo "No changes"
+          git commit -m "Daily update: standings.json" || echo "No changes"
           git push
