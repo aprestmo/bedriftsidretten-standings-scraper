@@ -18,8 +18,8 @@ const path = require('path');
         team: cols[1]?.innerText.trim(),
         matches: cols[2]?.innerText.trim(),
         wins: cols[3]?.innerText.trim(),
-        losses: cols[4]?.innerText.trim(),
         draws: cols[5]?.innerText.trim(),
+        losses: cols[4]?.innerText.trim(),
         points: cols[7]?.innerText.trim()
       };
     });
