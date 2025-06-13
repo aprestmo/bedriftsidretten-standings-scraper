@@ -1,3 +1,8 @@
-node_modules/
-public/
 .DS_Store
+node_modules/
+
+# Ignore the whole folder
+public/
+# But keep the actual outputs
+!public/standings.json
+!public/played-matches.json
