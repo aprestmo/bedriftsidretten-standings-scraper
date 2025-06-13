@@ -8,8 +8,8 @@
     "losses": "0",
     "goals": "35",
     "goalDifference": "12",
-    "goalsScored": 48,
-    "goalsConceded": 13
+    "goalsScored": "48",
+    "goalsConceded": "13"
   },
   {
     "position": "2",
@@ -20,8 +20,8 @@
     "losses": "0",
     "goals": "14",
     "goalDifference": "9",
-    "goalsScored": 25,
-    "goalsConceded": 11
+    "goalsScored": "25",
+    "goalsConceded": "11"
   },
   {
     "position": "3",
@@ -32,8 +32,8 @@
     "losses": "0",
     "goals": "11",
     "goalDifference": "6",
-    "goalsScored": 33,
-    "goalsConceded": 22
+    "goalsScored": "33",
+    "goalsConceded": "22"
   },
   {
     "position": "4",
@@ -44,8 +44,8 @@
     "losses": "1",
     "goals": "3",
     "goalDifference": "4",
-    "goalsScored": 20,
-    "goalsConceded": 17
+    "goalsScored": "20",
+    "goalsConceded": "17"
   },
   {
     "position": "5",
@@ -56,8 +56,8 @@
     "losses": "1",
     "goals": "3",
     "goalDifference": "4",
-    "goalsScored": 13,
-    "goalsConceded": 10
+    "goalsScored": "13",
+    "goalsConceded": "10"
   },
   {
     "position": "6",
@@ -68,8 +68,8 @@
     "losses": "1",
     "goals": "-2",
     "goalDifference": "4",
-    "goalsScored": 19,
-    "goalsConceded": 21
+    "goalsScored": "19",
+    "goalsConceded": "21"
   },
   {
     "position": "7",
@@ -80,8 +80,8 @@
     "losses": "0",
     "goals": "-28",
     "goalDifference": "3",
-    "goalsScored": 9,
-    "goalsConceded": 37
+    "goalsScored": "9",
+    "goalsConceded": "37"
   },
   {
     "position": "8",
@@ -92,7 +92,7 @@
     "losses": "1",
     "goals": "-36",
     "goalDifference": "1",
-    "goalsScored": 15,
-    "goalsConceded": 51
+    "goalsScored": "15",
+    "goalsConceded": "51"
   }
 ]
