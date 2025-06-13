@@ -1,10 +1,6 @@
 {
   "name": "bedriftsidretten-scraper-dual",
   "version": "1.0.0",
-  "scripts": {
-    "scrape:played": "node scrape-played.js",
-    "scrape:standings": "node scrape-standings.js"
-  },
   "dependencies": {
     "playwright": "^1.44.0"
   }
