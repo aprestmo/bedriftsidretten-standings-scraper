@@ -18,11 +18,9 @@ const path = require('path');
         team: cols[1]?.innerText.trim(),
         matches: cols[2]?.innerText.trim(),
         wins: cols[3]?.innerText.trim(),
-        draws: cols[4]?.innerText.trim(),
-        losses: cols[5]?.innerText.trim(),
-        goals: cols[6]?.innerText.trim(),
-        goalDifference: cols[7]?.innerText.trim(),
-        points: cols[8]?.innerText.trim()
+        losses: cols[4]?.innerText.trim(),
+        draws: cols[5]?.innerText.trim(),
+        points: cols[7]?.innerText.trim()
       };
     });
   });
