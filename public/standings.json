@@ -1,0 +1,90 @@
+[
+  {
+    "position": "1",
+    "team": "Neras",
+    "matches": "4",
+    "wins": "4",
+    "draws": "0",
+    "losses": "0",
+    "points": "12",
+    "goalsScored": "48",
+    "goalsConceded": "13"
+  },
+  {
+    "position": "2",
+    "team": "Zolen & Månen",
+    "matches": "3",
+    "wins": "3",
+    "draws": "0",
+    "losses": "0",
+    "points": "9",
+    "goalsScored": "25",
+    "goalsConceded": "11"
+  },
+  {
+    "position": "3",
+    "team": "Nardo Fotbaill e lænt",
+    "matches": "4",
+    "wins": "2",
+    "draws": "0",
+    "losses": "2",
+    "points": "6",
+    "goalsScored": "33",
+    "goalsConceded": "22"
+  },
+  {
+    "position": "4",
+    "team": "FK Kampbart",
+    "matches": "4",
+    "wins": "1",
+    "draws": "1",
+    "losses": "2",
+    "points": "4",
+    "goalsScored": "20",
+    "goalsConceded": "17"
+  },
+  {
+    "position": "5",
+    "team": "Glory Hole FC",
+    "matches": "3",
+    "wins": "1",
+    "draws": "1",
+    "losses": "1",
+    "points": "4",
+    "goalsScored": "13",
+    "goalsConceded": "10"
+  },
+  {
+    "position": "6",
+    "team": "Sparebank 1 SMN",
+    "matches": "4",
+    "wins": "1",
+    "draws": "1",
+    "losses": "2",
+    "points": "4",
+    "goalsScored": "19",
+    "goalsConceded": "21"
+  },
+  {
+    "position": "7",
+    "team": "FC Polen",
+    "matches": "4",
+    "wins": "1",
+    "draws": "0",
+    "losses": "3",
+    "points": "3",
+    "goalsScored": "9",
+    "goalsConceded": "37"
+  },
+  {
+    "position": "8",
+    "team": "Norsk Kylling",
+    "matches": "4",
+    "wins": "0",
+    "draws": "1",
+    "losses": "3",
+    "points": "1",
+    "goalsScored": "15",
+    "goalsConceded": "51"
+  }
+]
