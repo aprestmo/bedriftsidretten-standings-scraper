@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 (async () => {
   const browser = await chromium.launch();
@@ -18,8 +18,8 @@ const path = require('path');
         team: cols[1]?.innerText.trim(),
         matches: cols[2]?.innerText.trim(),
         wins: cols[3]?.innerText.trim(),
-        losses: cols[4]?.innerText.trim(),
-        draws: cols[5]?.innerText.trim(),
+        draws: cols[4]?.innerText.trim(),
+        losses: cols[5]?.innerText.trim(),
         goalDifference: cols[6]?.innerText.trim(),
         points: cols[7]?.innerText.trim()
       };
