@@ -22,8 +22,8 @@ for match in matches:
 # Merge into standings
 for team in standings:
     name = team["team"]
-    team["goalsScored"] = team_stats[name]["scored"]
-    team["goalsConceded"] = team_stats[name]["conceded"]
+    team["goalsScored"] = str(team_stats[name]["scored"])
+    team["goalsConceded"] = str(team_stats[name]["conceded"])
 
 # Ensure public folder exists
 os.makedirs("public", exist_ok=True)
