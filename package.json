@@ -1,10 +1,9 @@
 {
-  "name": "bedriftsidretten-standings-scraper",
+  "name": "bedriftsidretten-scraper-dual",
   "version": "1.0.0",
-  "description": "Scrapes weekly standings from bedriftsidretten.no and outputs JSON",
-  "main": "scrape.js",
   "scripts": {
-    "scrape": "node scrape.js"
+    "scrape:played": "node scrape-played.js",
+    "scrape:standings": "node scrape-standings.js"
   },
   "dependencies": {
     "playwright": "^1.44.0"
