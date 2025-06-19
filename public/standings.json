@@ -23,17 +23,28 @@
   },
   {
     "position": "3",
-    "team": "Nardo Fotbaill e lænt",
-    "matches": "4",
+    "team": "Sparebank 1 SMN",
+    "matches": "5",
     "wins": "2",
-    "draws": "0",
+    "draws": "1",
     "losses": "2",
-    "points": "6",
-    "goalsScored": "33",
-    "goalsConceded": "22"
+    "points": "7",
+    "goalsScored": "22",
+    "goalsConceded": "23"
   },
   {
     "position": "4",
+    "team": "Nardo Fotbaill e lænt",
+    "matches": "5",
+    "wins": "2",
+    "draws": "0",
+    "losses": "3",
+    "points": "6",
+    "goalsScored": "35",
+    "goalsConceded": "25"
+  },
+  {
+    "position": "5",
     "team": "FK Kampbart",
     "matches": "4",
     "wins": "1",
@@ -44,7 +55,7 @@
     "goalsConceded": "17"
   },
   {
-    "position": "5",
+    "position": "6",
     "team": "Glory Hole FC",
     "matches": "3",
     "wins": "1",
@@ -55,36 +66,25 @@
     "goalsConceded": "10"
   },
   {
-    "position": "6",
-    "team": "Sparebank 1 SMN",
-    "matches": "4",
+    "position": "7",
+    "team": "Norsk Kylling",
+    "matches": "5",
     "wins": "1",
     "draws": "1",
-    "losses": "2",
-    "points": "4",
-    "goalsScored": "19",
-    "goalsConceded": "21"
-  },
-  {
-    "position": "7",
-    "team": "FC Polen",
-    "matches": "4",
-    "wins": "1",
-    "draws": "0",
     "losses": "3",
-    "points": "3",
-    "goalsScored": "9",
-    "goalsConceded": "37"
+    "points": "4",
+    "goalsScored": "21",
+    "goalsConceded": "53"
   },
   {
     "position": "8",
-    "team": "Norsk Kylling",
-    "matches": "4",
-    "wins": "0",
-    "draws": "1",
-    "losses": "3",
-    "points": "1",
-    "goalsScored": "15",
-    "goalsConceded": "51"
+    "team": "FC Polen",
+    "matches": "5",
+    "wins": "1",
+    "draws": "0",
+    "losses": "4",
+    "points": "3",
+    "goalsScored": "11",
+    "goalsConceded": "43"
   }
 ]
