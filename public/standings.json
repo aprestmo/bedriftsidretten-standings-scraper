@@ -13,38 +13,49 @@
   {
     "position": "2",
     "team": "Zolen & Månen",
-    "matches": "3",
-    "wins": "3",
+    "matches": "4",
+    "wins": "4",
     "draws": "0",
     "losses": "0",
-    "points": "9",
-    "goalsScored": "25",
+    "points": "12",
+    "goalsScored": "42",
     "goalsConceded": "11"
   },
   {
     "position": "3",
     "team": "Sparebank 1 SMN",
-    "matches": "5",
-    "wins": "2",
+    "matches": "6",
+    "wins": "3",
     "draws": "1",
     "losses": "2",
-    "points": "7",
-    "goalsScored": "22",
-    "goalsConceded": "23"
-  },
-  {
-    "position": "4",
-    "team": "Nardo Fotbaill e lænt",
-    "matches": "5",
-    "wins": "2",
-    "draws": "0",
-    "losses": "3",
-    "points": "6",
-    "goalsScored": "35",
+    "points": "10",
+    "goalsScored": "37",
     "goalsConceded": "25"
   },
   {
+    "position": "4",
+    "team": "Glory Hole FC",
+    "matches": "4",
+    "wins": "2",
+    "draws": "1",
+    "losses": "1",
+    "points": "7",
+    "goalsScored": "22",
+    "goalsConceded": "13"
+  },
+  {
     "position": "5",
+    "team": "Nardo Fotbaill e lænt",
+    "matches": "6",
+    "wins": "2",
+    "draws": "0",
+    "losses": "4",
+    "points": "6",
+    "goalsScored": "38",
+    "goalsConceded": "34"
+  },
+  {
+    "position": "6",
     "team": "FK Kampbart",
     "matches": "4",
     "wins": "1",
@@ -55,36 +66,25 @@
     "goalsConceded": "17"
   },
   {
-    "position": "6",
-    "team": "Glory Hole FC",
-    "matches": "3",
-    "wins": "1",
-    "draws": "1",
-    "losses": "1",
-    "points": "4",
-    "goalsScored": "13",
-    "goalsConceded": "10"
-  },
-  {
     "position": "7",
     "team": "Norsk Kylling",
-    "matches": "5",
+    "matches": "6",
     "wins": "1",
     "draws": "1",
-    "losses": "3",
+    "losses": "4",
     "points": "4",
-    "goalsScored": "21",
-    "goalsConceded": "53"
+    "goalsScored": "23",
+    "goalsConceded": "68"
   },
   {
     "position": "8",
     "team": "FC Polen",
-    "matches": "5",
+    "matches": "6",
     "wins": "1",
     "draws": "0",
-    "losses": "4",
+    "losses": "5",
     "points": "3",
     "goalsScored": "11",
-    "goalsConceded": "43"
+    "goalsConceded": "60"
   }
 ]
