@@ -2,12 +2,12 @@
   {
     "position": "1",
     "team": "Zolen & Månen",
-    "matches": "6",
-    "wins": "6",
+    "matches": "7",
+    "wins": "7",
     "draws": "0",
     "losses": "0",
-    "points": "18",
-    "goalsScored": "59",
+    "points": "21",
+    "goalsScored": "62",
     "goalsConceded": "21"
   },
   {
@@ -24,24 +24,24 @@
   {
     "position": "3",
     "team": "Sparebank 1 SMN",
-    "matches": "7",
-    "wins": "4",
+    "matches": "8",
+    "wins": "5",
     "draws": "1",
     "losses": "2",
-    "points": "13",
-    "goalsScored": "50",
-    "goalsConceded": "28"
+    "points": "16",
+    "goalsScored": "59",
+    "goalsConceded": "33"
   },
   {
     "position": "4",
     "team": "Glory Hole FC",
-    "matches": "6",
-    "wins": "3",
+    "matches": "7",
+    "wins": "4",
     "draws": "2",
     "losses": "1",
-    "points": "11",
-    "goalsScored": "31",
-    "goalsConceded": "19"
+    "points": "14",
+    "goalsScored": "34",
+    "goalsConceded": "21"
   },
   {
     "position": "5",
@@ -57,34 +57,34 @@
   {
     "position": "6",
     "team": "FK Kampbart",
-    "matches": "7",
+    "matches": "8",
     "wins": "1",
     "draws": "1",
-    "losses": "5",
+    "losses": "6",
     "points": "4",
-    "goalsScored": "30",
-    "goalsConceded": "39"
+    "goalsScored": "35",
+    "goalsConceded": "48"
   },
   {
     "position": "7",
     "team": "Norsk Kylling",
-    "matches": "7",
+    "matches": "8",
     "wins": "1",
     "draws": "1",
-    "losses": "5",
+    "losses": "6",
     "points": "4",
     "goalsScored": "27",
-    "goalsConceded": "75"
+    "goalsConceded": "78"
   },
   {
     "position": "8",
     "team": "FC Polen",
-    "matches": "7",
+    "matches": "8",
     "wins": "1",
     "draws": "0",
-    "losses": "6",
+    "losses": "7",
     "points": "3",
-    "goalsScored": "14",
-    "goalsConceded": "73"
+    "goalsScored": "16",
+    "goalsConceded": "76"
   }
 ]
