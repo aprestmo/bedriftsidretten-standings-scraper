@@ -1,11 +1,47 @@
 [
   {
+    "date": "10.09.2025",
+    "time": "19:00",
+    "tournament": "Trondheim Bedriftsfotball 1. Divisjon Herrer 2025",
+    "venue": "Eberg Bedrift 7er A",
+    "homeTeam": "Sparebank 1 SMN",
+    "score": "2-3",
+    "awayTeam": "Zolen & Månen"
+  },
+  {
+    "date": "08.09.2025",
+    "time": "19:20",
+    "tournament": "Trondheim Bedriftsfotball 1. Divisjon Herrer 2025",
+    "venue": "Eberg Bedrift 7er B",
+    "homeTeam": "FC Polen",
+    "score": "1-6",
+    "awayTeam": "Nardo Fotbaill e lænt"
+  },
+  {
+    "date": "08.09.2025",
+    "time": "20:30",
+    "tournament": "Trondheim Bedriftsfotball 1. Divisjon Herrer 2025",
+    "venue": "Eberg Bedrift 7er B",
+    "homeTeam": "Norsk Kylling",
+    "score": "0-3",
+    "awayTeam": "Neras"
+  },
+  {
+    "date": "08.09.2025",
+    "time": "18:10",
+    "tournament": "Trondheim Bedriftsfotball 1. Divisjon Herrer 2025",
+    "venue": "Eberg Bedrift 7er B",
+    "homeTeam": "Glory Hole FC",
+    "score": "6-3",
+    "awayTeam": "FK Kampbart"
+  },
+  {
     "date": "03.09.2025",
     "time": "20:30",
     "tournament": "Trondheim Bedriftsfotball 1. Divisjon Herrer 2025",
     "venue": "Eberg Bedrift 7er A",
     "homeTeam": "FC Polen",
-    "score": "0-1",
+    "score": "0-3",
     "awayTeam": "Neras"
   },
   {
