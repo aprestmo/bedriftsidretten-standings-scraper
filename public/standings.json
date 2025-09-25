@@ -2,89 +2,89 @@
   {
     "position": "1",
     "team": "Zolen & Månen",
-    "matches": "11",
-    "wins": "11",
+    "matches": "12",
+    "wins": "12",
     "draws": "0",
     "losses": "0",
-    "points": "33",
-    "goalsScored": "75",
-    "goalsConceded": "26"
+    "points": "36",
+    "goalsScored": "91",
+    "goalsConceded": "27"
   },
   {
     "position": "2",
     "team": "Neras",
-    "matches": "11",
+    "matches": "12",
     "wins": "7",
     "draws": "2",
-    "losses": "2",
+    "losses": "3",
     "points": "23",
-    "goalsScored": "74",
-    "goalsConceded": "38"
+    "goalsScored": "75",
+    "goalsConceded": "40"
   },
   {
     "position": "3",
     "team": "Sparebank 1 SMN",
-    "matches": "11",
+    "matches": "12",
     "wins": "7",
     "draws": "1",
-    "losses": "3",
+    "losses": "4",
     "points": "22",
-    "goalsScored": "74",
-    "goalsConceded": "41"
+    "goalsScored": "75",
+    "goalsConceded": "49"
   },
   {
     "position": "4",
     "team": "Glory Hole FC",
-    "matches": "11",
-    "wins": "5",
+    "matches": "12",
+    "wins": "6",
     "draws": "2",
     "losses": "4",
-    "points": "17",
-    "goalsScored": "43",
-    "goalsConceded": "34"
+    "points": "20",
+    "goalsScored": "45",
+    "goalsConceded": "35"
   },
   {
     "position": "5",
     "team": "Nardo Fotbaill e lænt",
-    "matches": "11",
-    "wins": "4",
+    "matches": "12",
+    "wins": "5",
     "draws": "1",
     "losses": "6",
-    "points": "13",
-    "goalsScored": "59",
-    "goalsConceded": "51"
+    "points": "16",
+    "goalsScored": "67",
+    "goalsConceded": "52"
   },
   {
     "position": "6",
     "team": "FK Kampbart",
-    "matches": "10",
-    "wins": "2",
+    "matches": "12",
+    "wins": "3",
     "draws": "1",
-    "losses": "7",
-    "points": "7",
-    "goalsScored": "41",
-    "goalsConceded": "54"
+    "losses": "8",
+    "points": "10",
+    "goalsScored": "57",
+    "goalsConceded": "73"
   },
   {
     "position": "7",
     "team": "Norsk Kylling",
-    "matches": "11",
+    "matches": "12",
     "wins": "2",
     "draws": "1",
-    "losses": "8",
+    "losses": "9",
     "points": "7",
-    "goalsScored": "30",
-    "goalsConceded": "84"
+    "goalsScored": "32",
+    "goalsConceded": "87"
   },
   {
     "position": "8",
     "team": "FC Polen",
-    "matches": "10",
-    "wins": "1",
+    "matches": "12",
+    "wins": "2",
     "draws": "0",
-    "losses": "9",
-    "points": "3",
-    "goalsScored": "17",
-    "goalsConceded": "85"
+    "losses": "10",
+    "points": "6",
+    "goalsScored": "23",
+    "goalsConceded": "102"
   }
 ]
