@@ -12,6 +12,17 @@
   },
   {
     "position": "2",
+    "team": "Sparebank 1 SMN",
+    "matches": "14",
+    "wins": "9",
+    "draws": "1",
+    "losses": "4",
+    "points": "28",
+    "goalsScored": "81",
+    "goalsConceded": "49"
+  },
+  {
+    "position": "3",
     "team": "Neras",
     "matches": "14",
     "wins": "8",
@@ -22,69 +33,58 @@
     "goalsConceded": "51"
   },
   {
-    "position": "3",
-    "team": "Sparebank 1 SMN",
-    "matches": "13",
-    "wins": "8",
-    "draws": "1",
-    "losses": "4",
-    "points": "25",
-    "goalsScored": "78",
-    "goalsConceded": "49"
-  },
-  {
     "position": "4",
     "team": "Glory Hole FC",
-    "matches": "13",
-    "wins": "7",
+    "matches": "14",
+    "wins": "8",
     "draws": "2",
     "losses": "4",
-    "points": "23",
-    "goalsScored": "52",
+    "points": "26",
+    "goalsScored": "55",
     "goalsConceded": "40"
   },
   {
     "position": "5",
     "team": "Nardo Fotbaill e lænt",
-    "matches": "13",
+    "matches": "14",
     "wins": "5",
     "draws": "1",
-    "losses": "7",
+    "losses": "8",
     "points": "16",
-    "goalsScored": "72",
-    "goalsConceded": "59"
+    "goalsScored": "73",
+    "goalsConceded": "63"
   },
   {
     "position": "6",
     "team": "FK Kampbart",
-    "matches": "13",
-    "wins": "3",
+    "matches": "14",
+    "wins": "4",
     "draws": "1",
     "losses": "9",
-    "points": "10",
-    "goalsScored": "57",
-    "goalsConceded": "76"
+    "points": "13",
+    "goalsScored": "61",
+    "goalsConceded": "77"
   },
   {
     "position": "7",
     "team": "Norsk Kylling",
-    "matches": "13",
+    "matches": "14",
     "wins": "2",
     "draws": "1",
-    "losses": "10",
+    "losses": "11",
     "points": "7",
     "goalsScored": "32",
-    "goalsConceded": "90"
+    "goalsConceded": "93"
   },
   {
     "position": "8",
     "team": "FC Polen",
-    "matches": "13",
+    "matches": "14",
     "wins": "2",
     "draws": "0",
-    "losses": "11",
+    "losses": "12",
     "points": "6",
     "goalsScored": "23",
-    "goalsConceded": "105"
+    "goalsConceded": "108"
   }
 ]
