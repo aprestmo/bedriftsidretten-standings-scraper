@@ -3,30 +3,25 @@ name: Scrape and Update Standings
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * 4"
+    - cron: "0 10 * * 2" # Every Tuesday at 12:00 CEST (10:00 UTC)
 
 jobs:
-  scrape-and-merge:
+  scrape-standings:
     runs-on: ubuntu-latest
 
     steps:
       - name: 📅 Check if past stop date
         run: |
-          STOP_DATE="2025-10-22"
+          STOP_DATE="2026-10-15"
           CURRENT_DATE=$(date -u +%Y-%m-%d)
           if [[ "$CURRENT_DATE" > "$STOP_DATE" ]]; then
             echo "Current date ($CURRENT_DATE) is after stop date ($STOP_DATE). Stopping workflow."
-            exit 78  # Exit code 78 indicates neutral exit (not failure)
+            exit 78
           fi
           echo "Current date ($CURRENT_DATE) is before or equal to stop date ($STOP_DATE). Continuing workflow."
 
       - name: 📥 Checkout repository
-        uses: actions/checkout@v3
-
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
+        uses: actions/checkout@v4
 
       - name: 🟢 Set up Node.js
         uses: actions/setup-node@v4
@@ -39,19 +34,13 @@ jobs:
       - name: ⬇️ Install Playwright Chromium only
         run: npx playwright install chromium
 
-      - name: 📊 Scrape standings
+      - name: 📊 Scrape standings from Profixio
         run: node scrape-standings.js
-
-      - name: 🎮 Scrape played matches
-        run: node scrape-played.js
-
-      - name: 🧮 Merge scored and conceded into standings
-        run: python scripts/merge_standings.py
 
       - name: 📤 Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add -f public/standings.json public/played-matches.json
-          git diff --cached --quiet || git commit -m "Update scraped standings with goals scored and conceded"
+          git add -f public/standings.json
+          git diff --cached --quiet || git commit -m "Update standings from Profixio"
           git push
