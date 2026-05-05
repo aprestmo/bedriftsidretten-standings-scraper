@@ -3,7 +3,7 @@ name: Scrape and Update Standings
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 10 * * 2" # Every Tuesday at 12:00 CEST (10:00 UTC)
+    - cron: "0 6-14 * * 2" # Every Tuesday, hourly 08:00–16:00 CEST (06:00–14:00 UTC)
 
 jobs:
   scrape-standings:
@@ -22,6 +22,15 @@ jobs:
 
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+
+      - name: 🔍 Skip if already updated today
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if git --no-pager log --since="$TODAY" --grep="Update standings from Profixio" --oneline | grep -q .; then
+            echo "Standings already updated today. Skipping."
+            exit 78
+          fi
+          echo "No update yet today. Proceeding with scrape."
 
       - name: 🟢 Set up Node.js
         uses: actions/setup-node@v4
