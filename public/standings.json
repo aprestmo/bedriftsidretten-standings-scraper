@@ -1,28 +1,17 @@
 [
   {
     "position": "1",
-    "team": "FK Kampbart",
-    "matches": "2",
-    "wins": "2",
+    "team": "Heimdal Eiendomsmegling",
+    "matches": "3",
+    "wins": "3",
     "draws": "0",
     "losses": "0",
-    "goalsScored": "7",
-    "goalsConceded": "2",
-    "points": "6"
+    "goalsScored": "9",
+    "goalsConceded": "1",
+    "points": "9"
   },
   {
     "position": "2",
-    "team": "Heimdal Eiendomsmegling",
-    "matches": "2",
-    "wins": "2",
-    "draws": "0",
-    "losses": "0",
-    "goalsScored": "4",
-    "goalsConceded": "0",
-    "points": "6"
-  },
-  {
-    "position": "3",
     "team": "Sparebank1 Smn B.I.L",
     "matches": "2",
     "wins": "2",
@@ -30,6 +19,17 @@
     "losses": "0",
     "goalsScored": "8",
     "goalsConceded": "5",
+    "points": "6"
+  },
+  {
+    "position": "3",
+    "team": "FK Kampbart",
+    "matches": "3",
+    "wins": "2",
+    "draws": "0",
+    "losses": "1",
+    "goalsScored": "8",
+    "goalsConceded": "7",
     "points": "6"
   },
   {
@@ -46,16 +46,27 @@
   {
     "position": "5",
     "team": "FC Namsheim",
-    "matches": "2",
+    "matches": "3",
     "wins": "1",
     "draws": "0",
-    "losses": "1",
-    "goalsScored": "6",
-    "goalsConceded": "3",
+    "losses": "2",
+    "goalsScored": "8",
+    "goalsConceded": "8",
     "points": "3"
   },
   {
     "position": "6",
+    "team": "Ryde FC",
+    "matches": "3",
+    "wins": "1",
+    "draws": "0",
+    "losses": "2",
+    "goalsScored": "9",
+    "goalsConceded": "17",
+    "points": "3"
+  },
+  {
+    "position": "7",
     "team": "WESA Ballers",
     "matches": "2",
     "wins": "0",
@@ -66,7 +77,7 @@
     "points": "0"
   },
   {
-    "position": "7",
+    "position": "8",
     "team": "FC Kruttslam",
     "matches": "2",
     "wins": "0",
@@ -74,17 +85,6 @@
     "losses": "2",
     "goalsScored": "4",
     "goalsConceded": "10",
-    "points": "0"
-  },
-  {
-    "position": "8",
-    "team": "Ryde FC",
-    "matches": "2",
-    "wins": "0",
-    "draws": "0",
-    "losses": "2",
-    "goalsScored": "4",
-    "goalsConceded": "15",
     "points": "0"
   }
 ]
