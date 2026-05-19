@@ -1,0 +1,122 @@
+[
+  {
+    "matchId": "32614995",
+    "date": "18. mai",
+    "time": "21:00",
+    "homeTeam": "Sparebank1 Smn B.I.L",
+    "awayTeam": "FC Kruttslam",
+    "homeScore": null,
+    "awayScore": null,
+    "walkover": true
+  },
+  {
+    "matchId": "32614994",
+    "date": "18. mai",
+    "time": "19:50",
+    "homeTeam": "FK Kampbart",
+    "awayTeam": "Heimdal Eiendomsmegling",
+    "homeScore": 1,
+    "awayScore": 5,
+    "walkover": false
+  },
+  {
+    "matchId": "32614993",
+    "date": "18. mai",
+    "time": "18:40",
+    "homeTeam": "FC Namsheim",
+    "awayTeam": "Ryde FC",
+    "homeScore": 2,
+    "awayScore": 5,
+    "walkover": false
+  },
+  {
+    "matchId": "32614996",
+    "date": "18. mai",
+    "time": "17:30",
+    "homeTeam": "Neras B.I.L",
+    "awayTeam": "WESA Ballers",
+    "homeScore": null,
+    "awayScore": null,
+    "walkover": true
+  },
+  {
+    "matchId": "32614992",
+    "date": "11. mai",
+    "time": "21:00",
+    "homeTeam": "Heimdal Eiendomsmegling",
+    "awayTeam": "FC Namsheim",
+    "homeScore": 1,
+    "awayScore": 0,
+    "walkover": false
+  },
+  {
+    "matchId": "32614991",
+    "date": "11. mai",
+    "time": "19:50",
+    "homeTeam": "FC Kruttslam",
+    "awayTeam": "FK Kampbart",
+    "homeScore": 2,
+    "awayScore": 4,
+    "walkover": false
+  },
+  {
+    "matchId": "32614989",
+    "date": "11. mai",
+    "time": "18:40",
+    "homeTeam": "Ryde FC",
+    "awayTeam": "Neras B.I.L",
+    "homeScore": 4,
+    "awayScore": 12,
+    "walkover": false
+  },
+  {
+    "matchId": "32614990",
+    "date": "11. mai",
+    "time": "17:30",
+    "homeTeam": "WESA Ballers",
+    "awayTeam": "Sparebank1 Smn B.I.L",
+    "homeScore": 2,
+    "awayScore": 4,
+    "walkover": false
+  },
+  {
+    "matchId": "32614985",
+    "date": "4. mai",
+    "time": "21:00",
+    "homeTeam": "Heimdal Eiendomsmegling",
+    "awayTeam": "Ryde FC",
+    "homeScore": 3,
+    "awayScore": 0,
+    "walkover": false
+  },
+  {
+    "matchId": "32614988",
+    "date": "4. mai",
+    "time": "19:50",
+    "homeTeam": "Sparebank1 Smn B.I.L",
+    "awayTeam": "Neras B.I.L",
+    "homeScore": 4,
+    "awayScore": 3,
+    "walkover": false
+  },
+  {
+    "matchId": "32614986",
+    "date": "4. mai",
+    "time": "18:40",
+    "homeTeam": "FC Namsheim",
+    "awayTeam": "FC Kruttslam",
+    "homeScore": 6,
+    "awayScore": 2,
+    "walkover": false
+  },
+  {
+    "matchId": "32614987",
+    "date": "4. mai",
+    "time": "17:30",
+    "homeTeam": "FK Kampbart",
+    "awayTeam": "WESA Ballers",
+    "homeScore": 3,
+    "awayScore": 0,
+    "walkover": false
+  }
+]

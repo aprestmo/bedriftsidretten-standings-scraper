@@ -26,7 +26,7 @@ jobs:
       - name: 🔍 Skip if already updated today
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          if git --no-pager log --since="$TODAY" --grep="Update standings from Profixio" --oneline | grep -q .; then
+          if git --no-pager log --since="$TODAY" --grep="Update standings" --oneline | grep -q .; then
             echo "Standings already updated today. Skipping."
             exit 78
           fi
@@ -46,10 +46,13 @@ jobs:
       - name: 📊 Scrape standings from Profixio
         run: node scrape-standings.js
 
+      - name: 📋 Scrape results from Profixio
+        run: node scrape-results.js
+
       - name: 📤 Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add -f public/standings.json
-          git diff --cached --quiet || git commit -m "Update standings from Profixio"
+          git add -f public/standings.json public/results.json
+          git diff --cached --quiet || git commit -m "Update standings and results from Profixio"
           git push
