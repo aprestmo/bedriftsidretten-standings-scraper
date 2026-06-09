@@ -67,24 +67,24 @@
   },
   {
     "position": "7",
-    "team": "Ryde FC",
+    "team": "FC Kruttslam",
     "matches": "4",
     "wins": "1",
     "draws": "0",
     "losses": "3",
-    "goalsScored": "11",
-    "goalsConceded": "26",
+    "goalsScored": "8",
+    "goalsConceded": "17",
     "points": "3"
   },
   {
     "position": "8",
-    "team": "FC Kruttslam",
-    "matches": "3",
-    "wins": "0",
+    "team": "Ryde FC",
+    "matches": "5",
+    "wins": "1",
     "draws": "0",
-    "losses": "3",
-    "goalsScored": "5",
-    "goalsConceded": "17",
-    "points": "0"
+    "losses": "4",
+    "goalsScored": "11",
+    "goalsConceded": "29",
+    "points": "3"
   }
 ]
