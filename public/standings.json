@@ -2,16 +2,27 @@
   {
     "position": "1",
     "team": "Heimdal Eiendomsmegling",
+    "matches": "6",
+    "wins": "5",
+    "draws": "0",
+    "losses": "1",
+    "goalsScored": "20",
+    "goalsConceded": "11",
+    "points": "15"
+  },
+  {
+    "position": "2",
+    "team": "Sparebank1 Smn B.I.L",
     "matches": "5",
     "wins": "4",
     "draws": "0",
     "losses": "1",
-    "goalsScored": "17",
-    "goalsConceded": "11",
+    "goalsScored": "18",
+    "goalsConceded": "14",
     "points": "12"
   },
   {
-    "position": "2",
+    "position": "3",
     "team": "Neras B.I.L",
     "matches": "4",
     "wins": "3",
@@ -22,18 +33,18 @@
     "points": "9"
   },
   {
-    "position": "3",
-    "team": "Sparebank1 Smn B.I.L",
-    "matches": "4",
+    "position": "4",
+    "team": "WESA Ballers",
+    "matches": "5",
     "wins": "3",
     "draws": "0",
-    "losses": "1",
-    "goalsScored": "15",
-    "goalsConceded": "14",
+    "losses": "2",
+    "goalsScored": "28",
+    "goalsConceded": "13",
     "points": "9"
   },
   {
-    "position": "4",
+    "position": "5",
     "team": "FK Kampbart",
     "matches": "5",
     "wins": "3",
@@ -44,47 +55,36 @@
     "points": "9"
   },
   {
-    "position": "5",
-    "team": "WESA Ballers",
-    "matches": "4",
-    "wins": "2",
-    "draws": "0",
-    "losses": "2",
-    "goalsScored": "20",
-    "goalsConceded": "11",
-    "points": "6"
-  },
-  {
     "position": "6",
-    "team": "FC Namsheim",
+    "team": "FC Kruttslam",
     "matches": "5",
     "wins": "1",
     "draws": "0",
     "losses": "4",
-    "goalsScored": "9",
-    "goalsConceded": "17",
+    "goalsScored": "8",
+    "goalsConceded": "20",
     "points": "3"
   },
   {
     "position": "7",
-    "team": "FC Kruttslam",
-    "matches": "4",
+    "team": "FC Namsheim",
+    "matches": "6",
     "wins": "1",
     "draws": "0",
-    "losses": "3",
-    "goalsScored": "8",
-    "goalsConceded": "17",
+    "losses": "5",
+    "goalsScored": "11",
+    "goalsConceded": "25",
     "points": "3"
   },
   {
     "position": "8",
     "team": "Ryde FC",
-    "matches": "5",
+    "matches": "6",
     "wins": "1",
     "draws": "0",
-    "losses": "4",
+    "losses": "5",
     "goalsScored": "11",
-    "goalsConceded": "29",
+    "goalsConceded": "32",
     "points": "3"
   }
 ]
