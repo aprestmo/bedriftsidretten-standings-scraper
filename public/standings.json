@@ -12,6 +12,17 @@
   },
   {
     "position": "2",
+    "team": "Neras B.I.L",
+    "matches": "5",
+    "wins": "4",
+    "draws": "0",
+    "losses": "1",
+    "goalsScored": "35",
+    "goalsConceded": "13",
+    "points": "12"
+  },
+  {
+    "position": "3",
     "team": "Sparebank1 Smn B.I.L",
     "matches": "5",
     "wins": "4",
@@ -20,17 +31,6 @@
     "goalsScored": "18",
     "goalsConceded": "14",
     "points": "12"
-  },
-  {
-    "position": "3",
-    "team": "Neras B.I.L",
-    "matches": "4",
-    "wins": "3",
-    "draws": "0",
-    "losses": "1",
-    "goalsScored": "29",
-    "goalsConceded": "10",
-    "points": "9"
   },
   {
     "position": "4",
@@ -46,12 +46,12 @@
   {
     "position": "5",
     "team": "FK Kampbart",
-    "matches": "5",
+    "matches": "6",
     "wins": "3",
     "draws": "0",
-    "losses": "2",
-    "goalsScored": "13",
-    "goalsConceded": "13",
+    "losses": "3",
+    "goalsScored": "16",
+    "goalsConceded": "19",
     "points": "9"
   },
   {
