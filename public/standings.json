@@ -23,6 +23,17 @@
   },
   {
     "position": "3",
+    "team": "WESA Ballers",
+    "matches": "6",
+    "wins": "4",
+    "draws": "0",
+    "losses": "2",
+    "goalsScored": "32",
+    "goalsConceded": "15",
+    "points": "12"
+  },
+  {
+    "position": "4",
     "team": "Sparebank1 Smn B.I.L",
     "matches": "5",
     "wins": "4",
@@ -33,47 +44,36 @@
     "points": "12"
   },
   {
-    "position": "4",
-    "team": "WESA Ballers",
-    "matches": "5",
-    "wins": "3",
-    "draws": "0",
-    "losses": "2",
-    "goalsScored": "28",
-    "goalsConceded": "13",
-    "points": "9"
-  },
-  {
     "position": "5",
     "team": "FK Kampbart",
-    "matches": "6",
+    "matches": "7",
     "wins": "3",
     "draws": "0",
-    "losses": "3",
-    "goalsScored": "16",
-    "goalsConceded": "19",
+    "losses": "4",
+    "goalsScored": "18",
+    "goalsConceded": "23",
     "points": "9"
   },
   {
     "position": "6",
-    "team": "FC Kruttslam",
-    "matches": "5",
-    "wins": "1",
+    "team": "FC Namsheim",
+    "matches": "7",
+    "wins": "2",
     "draws": "0",
-    "losses": "4",
-    "goalsScored": "8",
-    "goalsConceded": "20",
-    "points": "3"
+    "losses": "5",
+    "goalsScored": "14",
+    "goalsConceded": "26",
+    "points": "6"
   },
   {
     "position": "7",
-    "team": "FC Namsheim",
+    "team": "FC Kruttslam",
     "matches": "6",
     "wins": "1",
     "draws": "0",
     "losses": "5",
-    "goalsScored": "11",
-    "goalsConceded": "25",
+    "goalsScored": "9",
+    "goalsConceded": "23",
     "points": "3"
   },
   {
